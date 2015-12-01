@@ -1,0 +1,36 @@
+bandit0:bandit0
+bandit1:boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+bandit2:CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+bandit3:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+bandit4:pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+bandit5:koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+note: find ./* -type f -exec ls -l \{\} \;
+bandit6:DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+note: find / -user bandit7 -group bandit6 -size -35
+bandit7:HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+bandit8:cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+note: sort data.txt | uniq -c | grep " 1 "
+bandit9:UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+bandit10:truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+bandit11:IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+note: alias rot13="tr a-zA-Z n-za-mN-ZA-M"
+bandit12:5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+note: tar -xvf, bunzip2, gunzip
+bandit13:8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+note: ssh -i sshkey.private bandit14@localhost
+bandit14:4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+note: nc localhost 30000
+bandit15:BfMYroe26WYalil77FoDi9qh59eK5xNr
+note: echo "BfMYroe26WYalil77FoDi9qh59eK5xNr" | openssl s_client -connect localhost:30001 -quiet
+bandit16:cluFn7wTiGryunymYOu4RcffSxQluehd
+note: nmap -p 31000-32000 localhost
+bandit17:xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+bandit18:kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+note: ssh bandit18@bandit.labs.overthewire.org 'cat readme'
+bandit19:IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+bandit20:GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+bandit21:gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+bandit22:Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+bandit23:jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+note: cd /var/spool/bandit24 && touch my_script.sh && echo "touch /tmp/kroz/out24 && chmod 666 /tmp/kroz/out24 && cat /etc/bandit_pass/bandit24 > /tmp/kroz/out24" > my_script.sh && chmod +x my_script.sh
+bandit24:UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ

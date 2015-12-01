@@ -1,0 +1,11 @@
+leviathan0:leviathan0
+leviathan1:rioGegei8m
+leviathan2:ougahZi8Ta
+note: ltrace
+leviathan3:Ahdiemooj1
+note: nm, gdb (disas main, info file - http://felix.abecassis.me/2012/08/gdb-debugging-stripped-binaries/, b *0x0804856e, x (print info at address))
+leviathan4:vuH0coox6m
+leviathan5:Tith4cokei
+note: ls -n will get uid
+leviathan6:UgaoFee4li
+leviathan7:ahy7MaeBo9
